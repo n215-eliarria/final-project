@@ -1,0 +1,127 @@
+.offers{
+  max-width: $site-nav-width;
+    margin: 130px auto 180px auto;
+  
+    .offers-header {
+      h1 {
+        margin-bottom: 2px;
+        font-family: proxmia nova thin;
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: 3px;
+        
+      }
+      .border-bottom {
+        width: 197px;
+        height: 2px;
+        background-color: #000;
+        margin-bottom: 16px;
+        font-family: gill sans italic;
+        font-size: 16px;
+      }
+    }
+
+
+  
+    .offers-deals{
+      margin-top: 35.5px;
+      margin-bottom: 60px;
+
+      h1{
+        font-size: 30px;
+        font-family: proxmia nova thin;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .line{
+        border-bottom: solid black;
+        width: 196px;
+        margin-top: -10px;
+      }
+
+  
+      .content-box {
+        width: 1000px;
+        height: 300px;
+        display: flex;
+        position: relative;
+        margin-bottom: 37px;
+  
+        .image1 {
+          width: 199px;
+          height: 287px;
+          overflow: hidden;
+          background-image: url(../images/images/special-offer-01.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          margin-right: 21px;
+        }
+
+        .image2 {
+            width: 199px;
+            height: 287px;
+            overflow: hidden;
+            background-image: url(../images/images/special-offer-02.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-right: 21px;
+          }
+
+  
+        .quote {
+          max-width: 300px;
+          margin-bottom: 20px;
+          font-family: gill sans italic;
+          font-size: 16px;
+          margin-top: 21px;
+        }
+        .button{
+            margin-top: 100px;
+        
+        span{
+            background-color: $site-blue;
+            padding: 10px 15px;
+            border-radius: 50px;
+            bottom: 50px;
+            font-family: gill sans reg;
+            font-size: 15px;
+            margin-bottom: 50px;
+            color: white;
+            
+    
+        }
+    }
+  
+        .discount {
+          bottom: 0;
+          right: 0;
+          font-size: 20px;
+          font-family: proxmia nova thin;
+          color: #FF7D38;
+          margin-top: 5px;
+          margin-left: 20px;
+
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1200px) and (min-width:800px){
+    .offers{
+      .offers-header{
+        h1{
+          font-size: 20px;
+        }
+        .offers-deals{
+          h1{
+            font-size: 20px;
+          }
+        }
+      }
+      p{
+        font-size: smaller;
+      }
+    }
+  }

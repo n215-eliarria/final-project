@@ -1,0 +1,106 @@
+.about {
+  max-width: $site-nav-width;
+    margin: 130px auto 180px auto;
+  
+    .about-header {
+      // margin-top: 100px;
+      h1 {
+        margin-bottom: 2px;
+        font-family: proxmia nova thin;
+        text-transform: uppercase;
+        font-size: 60px;
+      }
+      .border-bottom {
+        width: 97px;
+        height: 2px;
+        background-color: #000;
+        margin-bottom: 16px;
+        font-family: gill sans italic;
+        font-size: 16px;
+      }
+      p{
+        font-size: 16px;
+        font-family: gill sans reg;
+    }
+    }
+  
+    .about-client-quotes {
+      margin-top: 107px;
+
+  
+      h2{
+        font-size: 40px;
+        font-family: proxmia nova thin;
+        text-transform: uppercase;
+      }
+      .line{
+        border-bottom: solid black;
+        width: 255px;
+        margin-bottom: 36.5px;
+      }
+      p{
+        font-size: 16px;
+        font-family: gill sans reg;
+    }
+  
+      .client-box {
+        max-width: 722px;
+        display: flex;
+        position: relative;
+        margin-bottom: 37px;
+  
+        .client-image {
+          width: 260px;
+          height: 150px;
+          overflow: hidden;
+          margin-right: 21px;
+  
+          img {
+            width: 100%;
+          }
+        }
+  
+        .client-quote {
+          max-width: 440px;
+          margin-bottom: 20px;
+          font-family: gill sans italic;
+          font-size: 16px;
+        }
+  
+        .client-name {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          font-family: proxmia nova thin;
+          color: $site-blue;
+
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1200px) and (min-width:800px){
+    .about{
+      .about-header{
+        h1{
+          font-size: 40px;
+        }
+      }
+
+      .about-client-quotes{
+        .line{
+          width: 5%;
+        }
+        h2{
+          font-size: 20px;
+
+        }
+        P{
+          font-size: smaller;
+        }
+      }
+    }
+  }
+
+
+  

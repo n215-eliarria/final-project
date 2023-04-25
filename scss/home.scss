@@ -1,0 +1,161 @@
+.home{
+    .hero{
+        max-width: 100%; //can also be 
+        // max-width: $site-nav-width;
+        height: $hero-height;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+ 
+        
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    .form-holder{
+        width: 818px;
+        min-height: $tour-banner-height;
+        margin: 50px auto 0 auto;
+
+        h1{
+            font-family: proxmia nova ;
+            font-size: 60px;
+        }
+
+        .forms{
+            input{
+                height: 58px;
+                padding: 5px;
+                border: solid $site-blue 2px;
+                margin-bottom: 20px;
+
+            }
+            .two-input{
+                min-height: 58px;
+                display: flex;
+                justify-content: space-between;
+
+                .left{
+                    width: 344px;
+                }
+                .right{
+                    width: 453px;
+                }
+            }
+            .single-line{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            // margin-bottom: 20px;
+            .large-input{
+                width: 698px;
+                padding: 20px;
+            }
+            .icon {
+                font-size: 18px;
+                position: absolute;
+                margin: 20px -40px;
+                left: 820px;
+                top: -2px;
+                
+              }
+            }
+            .bingus{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+
+
+                input{
+                    width: 103px;
+                }
+                .owo{
+                    position: absolute;
+                    font-size: 18px;
+                    margin: 20px -40px;
+                    left: 230px;
+                    top: -2px;
+                }
+                .owo1{
+                    position: absolute;
+                    font-size: 18px;
+                    margin: 20px -40px;
+                    left: 540px;
+                    top: -2px;
+                }
+                .owo2{
+                    position: absolute;
+                    font-size: 18px;
+                    margin: 20px -40px;
+                    left: 830px;
+                    top: -2px;
+                }
+            }
+            .lala{
+
+                width: 818px;
+                height: 192px;
+
+            }
+            .submit{
+                width: 813px;
+                height: 60px;
+                padding: 20px 30px;
+                border-radius: 50px;
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                background-color: $site-blue;
+                color: white;
+                font-size: 15px;
+                margin-bottom: 100px;
+                font-family: gill sans reg;
+
+
+
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) and (min-width:800px){
+    .home{
+        .forms{
+            padding: 20px;
+            flex-direction: column;
+        }
+    }
+}
+
+
+@media (max-width: 860px){
+    .img1{
+        margin-bottom: 20px;
+    }
+    .img2{
+        margin-bottom: 20px;
+    }
+    .img3{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 800px){
+    .img1{
+        margin-bottom: 20px;
+    }
+    .img2{
+        margin-bottom: 20px;
+    }
+    .img3{
+        margin-bottom: 20px;
+    }
+}
+
+

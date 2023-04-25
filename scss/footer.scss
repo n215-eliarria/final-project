@@ -1,0 +1,46 @@
+footer{
+    background-color: $site-blue;
+    width: 100%;
+    height: $site-nav-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logob{
+        background-image: url(../images/images/logo/logo-white.png);
+        width: 92px;
+        height: 42px;
+        margin: auto;
+    }
+
+    p{
+        margin: 0 auto;
+        color: white;
+        font-size: 12px;
+        font-family: gill sans reg;
+
+    }
+
+    .social{
+        margin: auto;
+        
+    .fb{
+        height: 22px;
+        width: 22px;
+        color: white;
+    }
+
+    .ig{
+        height: 22px;
+        width: 22px;
+        color: white;
+    }
+
+    .tw{
+        height: 22px;
+        width: 22px;
+        color: white;
+    }
+}
+
+}

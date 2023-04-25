@@ -1,0 +1,1942 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.site-wrapper {
+  max-width: 1280px;
+  min-height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-holder {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+.nav-holder nav {
+  width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-holder nav .logob {
+  width: 92px;
+  height: 42px;
+}
+.nav-holder nav .links {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-holder nav .links a {
+  text-decoration: none;
+  color: white;
+  font-family: gill sans reg;
+}
+.nav-holder nav .links span {
+  color: #79ADDC;
+}
+.nav-holder nav .links .we {
+  color: #000;
+}
+.nav-holder .jes {
+  width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-holder .jes .logob {
+  width: 92px;
+  height: 42px;
+}
+.nav-holder .jes .links {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-holder .jes .links a {
+  text-decoration: none;
+  color: white;
+  font-family: gill sans reg;
+}
+.nav-holder .jes .links span {
+  color: #79ADDC;
+}
+.nav-holder .jes .links .we {
+  color: #000;
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+  .nav-holder {
+    width: auto;
+  }
+  .nav-holder nav {
+    width: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-holder {
+    width: auto;
+    padding-right: 5px;
+    font-size: 5px;
+  }
+}
+.home .hero {
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .form-holder {
+  width: 818px;
+  min-height: 304px;
+  margin: 50px auto 0 auto;
+}
+.home .form-holder h1 {
+  font-family: proxmia nova;
+  font-size: 60px;
+}
+.home .form-holder .forms input {
+  height: 58px;
+  padding: 5px;
+  border: solid #79ADDC 2px;
+  margin-bottom: 20px;
+}
+.home .form-holder .forms .two-input {
+  min-height: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+.home .form-holder .forms .two-input .left {
+  width: 344px;
+}
+.home .form-holder .forms .two-input .right {
+  width: 453px;
+}
+.home .form-holder .forms .single-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.home .form-holder .forms .single-line .large-input {
+  width: 698px;
+  padding: 20px;
+}
+.home .form-holder .forms .single-line .icon {
+  font-size: 18px;
+  position: absolute;
+  margin: 20px -40px;
+  left: 820px;
+  top: -2px;
+}
+.home .form-holder .forms .bingus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.home .form-holder .forms .bingus input {
+  width: 103px;
+}
+.home .form-holder .forms .bingus .owo {
+  position: absolute;
+  font-size: 18px;
+  margin: 20px -40px;
+  left: 230px;
+  top: -2px;
+}
+.home .form-holder .forms .bingus .owo1 {
+  position: absolute;
+  font-size: 18px;
+  margin: 20px -40px;
+  left: 540px;
+  top: -2px;
+}
+.home .form-holder .forms .bingus .owo2 {
+  position: absolute;
+  font-size: 18px;
+  margin: 20px -40px;
+  left: 830px;
+  top: -2px;
+}
+.home .form-holder .forms .lala {
+  width: 818px;
+  height: 192px;
+}
+.home .form-holder .forms .submit {
+  width: 813px;
+  height: 60px;
+  padding: 20px 30px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 100px;
+  font-family: gill sans reg;
+}
+
+@media (max-width: 900px) and (min-width: 800px) {
+  .home .forms {
+    padding: 20px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 860px) {
+  .img1 {
+    margin-bottom: 20px;
+  }
+  .img2 {
+    margin-bottom: 20px;
+  }
+  .img3 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .img1 {
+    margin-bottom: 20px;
+  }
+  .img2 {
+    margin-bottom: 20px;
+  }
+  .img3 {
+    margin-bottom: 20px;
+  }
+}
+.box {
+  max-width: 818px;
+  min-height: 304px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -43px auto 0 auto;
+}
+.box .img1 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .img2 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .img3 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+}
+.info h1 {
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: proxmia nova;
+  font-style: italic;
+}
+.info p {
+  font-size: 30px;
+  font-family: proxmia nova thin;
+  margin-top: -50px;
+}
+.info a {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 860px) {
+  .box {
+    flex-direction: column;
+  }
+}
+footer {
+  background-color: #79ADDC;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .logob {
+  background-image: url(../images/images/logo/logo-white.png);
+  width: 92px;
+  height: 42px;
+  margin: auto;
+}
+footer p {
+  margin: 0 auto;
+  color: white;
+  font-size: 12px;
+  font-family: gill sans reg;
+}
+footer .social {
+  margin: auto;
+}
+footer .social .fb {
+  height: 22px;
+  width: 22px;
+  color: white;
+}
+footer .social .ig {
+  height: 22px;
+  width: 22px;
+  color: white;
+}
+footer .social .tw {
+  height: 22px;
+  width: 22px;
+  color: white;
+}
+
+.text-holder {
+  display: flex;
+  align-items: center;
+  height: 70%;
+  width: 400px;
+  color: white;
+}
+.text-holder .text-head {
+  text-align: center;
+  margin-top: -30px;
+}
+.text-holder .text-head h1 {
+  color: white;
+  margin-bottom: 50px;
+  font-family: proxmia nova;
+  font-size: 60px;
+}
+.text-holder .text-head p {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: gill sans italic;
+}
+.text-holder .text-head span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  font-family: gill sans reg;
+}
+
+@font-face {
+  font-family: proxmia nova thin;
+  src: url(../css/fonts/Proxima-Nova-Thin\ \(1\).otf);
+}
+@font-face {
+  font-family: gill sans italic;
+  src: url(../css/fonts/fonts/Gill-Sans-Font-Family/Gill\ Sans\ Italic.otf);
+}
+@font-face {
+  font-family: proxmia nova;
+  src: url(../css/fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: gill sans reg;
+  src: url(../css/fonts/fonts/Gill-Sans-Font-Family/Gill\ Sans.otf);
+}
+@font-face {
+  font-family: gill sans bold;
+  src: url(../css/fonts/fonts/Gill-Sans-Font-Family/Gill\ Sans\ Bold.otf);
+}
+@font-face {
+  font-family: gill sans light;
+  src: url(../css/fonts/fonts/Gill-Sans-Font-Family/Gill\ Sans\ Light.otf);
+}
+.about {
+  max-width: 980px;
+  margin: 130px auto 180px auto;
+}
+.about .about-header h1 {
+  margin-bottom: 2px;
+  font-family: proxmia nova thin;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.about .about-header .border-bottom {
+  width: 97px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 16px;
+  font-family: gill sans italic;
+  font-size: 16px;
+}
+.about .about-header p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+}
+.about .about-client-quotes h2 {
+  font-size: 40px;
+  font-family: proxmia nova thin;
+  text-transform: uppercase;
+}
+.about .about-client-quotes .line {
+  border-bottom: solid black;
+  width: 255px;
+  margin-bottom: 36.5px;
+}
+.about .about-client-quotes p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  margin-bottom: 20px;
+  font-family: gill sans italic;
+  font-size: 16px;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: proxmia nova thin;
+  color: #79ADDC;
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .about .about-header h1 {
+    font-size: 40px;
+  }
+  .about .about-client-quotes .line {
+    width: 5%;
+  }
+  .about .about-client-quotes h2 {
+    font-size: 20px;
+  }
+  .about .about-client-quotes P {
+    font-size: smaller;
+  }
+}
+.tours {
+  max-width: 980px;
+  margin: 130px auto 180px auto;
+}
+.tours .header-tours {
+  width: 981px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tours-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tours .header-tours .word-holder {
+  display: flex;
+  align-items: center;
+}
+.tours .header-tours .word-holder .word-head {
+  text-align: center;
+}
+.tours .header-tours .word-holder .word-head h1 {
+  color: white;
+  font-size: 60px;
+  font-family: proxmia nova thin;
+  text-transform: uppercase;
+}
+.tours .box {
+  max-width: 818px;
+  min-height: 304px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.tours .box .img1 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tours .box .img2 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tours .box .img3 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tours .info {
+  width: 99%;
+  height: 90%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+}
+.tours .info h1 {
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: proxmia nova;
+  font-style: italic;
+}
+.tours .info p {
+  font-size: 30px;
+  font-family: proxmia nova thin;
+  margin-top: -50px;
+}
+.tours .info a {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: white;
+}
+.tours .box2 {
+  max-width: 818px;
+  min-height: 304px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.tours .box2 .img4 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tours .box2 .img5 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-05.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tours .box2 .img6 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-06.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tours .box3 {
+  max-width: 818px;
+  min-height: 304px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.tours .box3 .img7 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-07.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tours .box3 .img8 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-08.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tours .box3 .img9 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-09.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) and (min-width: 800px) {
+  .tours .header-tours {
+    width: auto;
+  }
+  .tours .box {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .tours .box2 {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .tours .box3 {
+    padding: 20px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .img1 {
+    margin-bottom: 20px;
+  }
+  .img2 {
+    margin-bottom: 20px;
+  }
+  .img3 {
+    margin-bottom: 20px;
+  }
+  .img4 {
+    margin-bottom: 20px;
+  }
+  .img5 {
+    margin-bottom: 20px;
+  }
+  .img6 {
+    margin-bottom: 20px;
+  }
+  .img7 {
+    margin-bottom: 20px;
+  }
+  .img8 {
+    margin-bottom: 20px;
+  }
+  .img9 {
+    margin-bottom: 20px;
+  }
+}
+.israel {
+  max-width: 980px;
+  margin: 130px auto 100px auto;
+}
+.israel .header-israel {
+  width: 981px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-01.jpg);
+}
+.israel .header-israel .word-holder {
+  position: absolute;
+}
+.israel .header-israel .word-holder .word-head {
+  width: 687px;
+  position: relative;
+  right: 120px;
+  bottom: 130px;
+  font-size: 80px;
+  font-family: proxmia nova;
+  color: white;
+}
+.israel .header-israel .word-holder .price {
+  position: relative;
+  font-family: proxmia nova thin;
+  color: white;
+  width: 311px;
+  left: 650px;
+  top: 150px;
+}
+.israel .pics {
+  width: 981px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.israel .pics .pic1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-israel/israel-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.israel .pics .pic2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-israel/israel-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.israel .pics .pic3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-israel/israel-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.israel .day {
+  margin-top: 29px;
+  width: 981px;
+}
+.israel .day .day-holder {
+  margin-bottom: 70px;
+}
+.israel .day .day-holder h1 {
+  font-size: 60px;
+  font-family: proxmia nova thin;
+}
+.israel .day .day-holder .bottom-line {
+  border-bottom: solid black;
+  width: 141px;
+  margin-bottom: 36.5px;
+}
+.israel .day .day-holder p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.israel .booknow {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.israel .booknow span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.usa {
+  max-width: 980px;
+  margin: 130px auto 100px auto;
+}
+.usa .header-usa {
+  width: 981px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-02.jpg);
+  background-color: black;
+}
+.usa .header-usa .word-holder {
+  position: absolute;
+}
+.usa .header-usa .word-holder .word-head {
+  width: 687px;
+  position: relative;
+  right: 120px;
+  bottom: 130px;
+  font-size: 80px;
+  font-family: proxmia nova;
+  color: white;
+}
+.usa .header-usa .word-holder .price {
+  position: relative;
+  font-family: proxmia nova thin;
+  color: white;
+  width: 311px;
+  left: 650px;
+  top: 150px;
+}
+.usa .pics {
+  width: 981px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.usa .pics .pic1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-usa/usa-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.usa .pics .pic2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/usa-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.usa .pics .pic3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-usa/usa-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.usa .day {
+  margin-top: 29px;
+  width: 981px;
+}
+.usa .day .day-holder {
+  margin-bottom: 70px;
+}
+.usa .day .day-holder h1 {
+  font-size: 60px;
+  font-family: proxmia nova thin;
+}
+.usa .day .day-holder .bottom-line {
+  border-bottom: solid black;
+  width: 141px;
+  margin-bottom: 36.5px;
+}
+.usa .day .day-holder p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.usa .booknow {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.usa .booknow span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.australia {
+  max-width: 980px;
+  margin: 130px auto 100px auto;
+}
+.australia .header-australia {
+  width: 981px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-03.jpg);
+  background-color: black;
+}
+.australia .header-australia .word-holder {
+  position: absolute;
+}
+.australia .header-australia .word-holder .word-head {
+  width: 687px;
+  position: relative;
+  right: 120px;
+  bottom: 130px;
+  font-size: 80px;
+  font-family: proxmia nova;
+  color: white;
+}
+.australia .header-australia .word-holder .price {
+  position: relative;
+  font-family: proxmia nova thin;
+  color: white;
+  width: 311px;
+  left: 650px;
+  top: 150px;
+}
+.australia .pics {
+  width: 981px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.australia .pics .pic1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-aus/aus-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.australia .pics .pic2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-aus/aus-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.australia .pics .pic3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-aus/aus-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.australia .day {
+  margin-top: 29px;
+  width: 981px;
+}
+.australia .day .day-holder {
+  margin-bottom: 70px;
+}
+.australia .day .day-holder h1 {
+  font-size: 60px;
+  font-family: proxmia nova thin;
+}
+.australia .day .day-holder .bottom-line {
+  border-bottom: solid black;
+  width: 141px;
+  margin-bottom: 36.5px;
+}
+.australia .day .day-holder p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.australia .booknow {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.australia .booknow span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.zealand {
+  max-width: 980px;
+  margin: 130px auto 100px auto;
+}
+.zealand .header-zealand {
+  width: 981px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-04.jpg);
+  background-color: black;
+}
+.zealand .header-zealand .word-holder {
+  position: absolute;
+}
+.zealand .header-zealand .word-holder .word-head {
+  width: 687px;
+  position: relative;
+  right: 120px;
+  bottom: 130px;
+  font-size: 80px;
+  font-family: proxmia nova;
+  color: white;
+}
+.zealand .header-zealand .word-holder .price {
+  position: relative;
+  font-family: proxmia nova thin;
+  color: white;
+  width: 311px;
+  left: 650px;
+  top: 150px;
+}
+.zealand .pics {
+  width: 981px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.zealand .pics .pic1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-nz/nz-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zealand .pics .pic2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-nz/nz-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zealand .pics .pic3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-nz/nz-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zealand .day {
+  margin-top: 29px;
+  width: 981px;
+}
+.zealand .day .day-holder {
+  margin-bottom: 70px;
+}
+.zealand .day .day-holder h1 {
+  font-size: 60px;
+  font-family: proxmia nova thin;
+}
+.zealand .day .day-holder .bottom-line {
+  border-bottom: solid black;
+  width: 141px;
+  margin-bottom: 36.5px;
+}
+.zealand .day .day-holder p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.zealand .booknow {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.zealand .booknow span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.france {
+  max-width: 980px;
+  margin: 130px auto 100px auto;
+}
+.france .header-france {
+  width: 981px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-05.jpg);
+  background-color: black;
+}
+.france .header-france .word-holder {
+  position: absolute;
+}
+.france .header-france .word-holder .word-head {
+  width: 687px;
+  position: relative;
+  right: 120px;
+  bottom: 130px;
+  font-size: 80px;
+  font-family: proxmia nova;
+  color: white;
+}
+.france .header-france .word-holder .price {
+  position: relative;
+  font-family: proxmia nova thin;
+  color: white;
+  width: 311px;
+  left: 650px;
+  top: 150px;
+}
+.france .pics {
+  width: 981px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.france .pics .pic1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-france/france-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.france .pics .pic2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-france/france-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.france .pics .pic3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-france/france-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.france .day {
+  margin-top: 29px;
+  width: 981px;
+}
+.france .day .day-holder {
+  margin-bottom: 70px;
+}
+.france .day .day-holder h1 {
+  font-size: 60px;
+  font-family: proxmia nova thin;
+}
+.france .day .day-holder .bottom-line {
+  border-bottom: solid black;
+  width: 141px;
+  margin-bottom: 36.5px;
+}
+.france .day .day-holder p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.france .booknow {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.france .booknow span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.egypt {
+  max-width: 980px;
+  margin: 130px auto 100px auto;
+}
+.egypt .header-egypt {
+  width: 981px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-06.jpg);
+  background-color: black;
+}
+.egypt .header-egypt .word-holder {
+  position: absolute;
+}
+.egypt .header-egypt .word-holder .word-head {
+  width: 687px;
+  position: relative;
+  right: 120px;
+  bottom: 130px;
+  font-size: 80px;
+  font-family: proxmia nova;
+  color: white;
+}
+.egypt .header-egypt .word-holder .price {
+  position: relative;
+  font-family: proxmia nova thin;
+  color: white;
+  width: 311px;
+  left: 650px;
+  top: 150px;
+}
+.egypt .pics {
+  width: 981px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.egypt .pics .pic1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-egypt/egypt-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.egypt .pics .pic2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-egypt/egypt-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.egypt .pics .pic3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-egypt/egypt-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.egypt .day {
+  margin-top: 29px;
+  width: 981px;
+}
+.egypt .day .day-holder {
+  margin-bottom: 70px;
+}
+.egypt .day .day-holder h1 {
+  font-size: 60px;
+  font-family: proxmia nova thin;
+}
+.egypt .day .day-holder .bottom-line {
+  border-bottom: solid black;
+  width: 141px;
+  margin-bottom: 36.5px;
+}
+.egypt .day .day-holder p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.egypt .booknow {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.egypt .booknow span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.japan {
+  max-width: 980px;
+  margin: 130px auto 100px auto;
+}
+.japan .header-japan {
+  width: 981px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-07.jpg);
+  background-color: black;
+}
+.japan .header-japan .word-holder {
+  position: absolute;
+}
+.japan .header-japan .word-holder .word-head {
+  width: 687px;
+  position: relative;
+  right: 120px;
+  bottom: 130px;
+  font-size: 80px;
+  font-family: proxmia nova;
+  color: white;
+}
+.japan .header-japan .word-holder .price {
+  position: relative;
+  font-family: proxmia nova thin;
+  color: white;
+  width: 311px;
+  left: 650px;
+  top: 150px;
+}
+.japan .pics {
+  width: 981px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.japan .pics .pic1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-japan/japan-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.japan .pics .pic2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-japan/japan-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.japan .pics .pic3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-japan/japan-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.japan .day {
+  margin-top: 29px;
+  width: 981px;
+}
+.japan .day .day-holder {
+  margin-bottom: 70px;
+}
+.japan .day .day-holder h1 {
+  font-size: 60px;
+  font-family: proxmia nova thin;
+}
+.japan .day .day-holder .bottom-line {
+  border-bottom: solid black;
+  width: 141px;
+  margin-bottom: 36.5px;
+}
+.japan .day .day-holder p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.japan .booknow {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.japan .booknow span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.canada {
+  max-width: 980px;
+  margin: 130px auto 100px auto;
+}
+.canada .header-canada {
+  width: 981px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-08.jpg);
+  background-color: black;
+}
+.canada .header-canada .word-holder {
+  position: absolute;
+}
+.canada .header-canada .word-holder .word-head {
+  width: 687px;
+  position: relative;
+  right: 120px;
+  bottom: 130px;
+  font-size: 80px;
+  font-family: proxmia nova;
+  color: white;
+}
+.canada .header-canada .word-holder .price {
+  position: relative;
+  font-family: proxmia nova thin;
+  color: white;
+  width: 311px;
+  left: 650px;
+  top: 150px;
+}
+.canada .pics {
+  width: 981px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.canada .pics .pic1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-canada/canada-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.canada .pics .pic2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-canada/canada-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.canada .pics .pic3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-canada/canada-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.canada .day {
+  margin-top: 29px;
+  width: 981px;
+}
+.canada .day .day-holder {
+  margin-bottom: 70px;
+}
+.canada .day .day-holder h1 {
+  font-size: 60px;
+  font-family: proxmia nova thin;
+}
+.canada .day .day-holder .bottom-line {
+  border-bottom: solid black;
+  width: 141px;
+  margin-bottom: 36.5px;
+}
+.canada .day .day-holder p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.canada .booknow {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.canada .booknow span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.uae {
+  max-width: 980px;
+  margin: 130px auto 100px auto;
+}
+.uae .header-uae {
+  width: 981px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-09.jpg);
+  background-color: black;
+}
+.uae .header-uae .word-holder {
+  position: absolute;
+}
+.uae .header-uae .word-holder .word-head {
+  width: 687px;
+  position: relative;
+  right: 120px;
+  bottom: 130px;
+  font-size: 80px;
+  font-family: proxmia nova;
+  color: white;
+}
+.uae .header-uae .word-holder .price {
+  position: relative;
+  font-family: proxmia nova thin;
+  color: white;
+  width: 311px;
+  left: 650px;
+  top: 150px;
+}
+.uae .pics {
+  width: 981px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.uae .pics .pic1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-uae/uae-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.uae .pics .pic2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-uae/uae-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.uae .pics .pic3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/images/tour/tour-uae/uae-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.uae .day {
+  margin-top: 29px;
+  width: 981px;
+}
+.uae .day .day-holder {
+  margin-bottom: 70px;
+}
+.uae .day .day-holder h1 {
+  font-size: 60px;
+  font-family: proxmia nova thin;
+}
+.uae .day .day-holder .bottom-line {
+  border-bottom: solid black;
+  width: 141px;
+  margin-bottom: 36.5px;
+}
+.uae .day .day-holder p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.uae .booknow {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.uae .booknow span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.offers {
+  max-width: 980px;
+  margin: 130px auto 180px auto;
+}
+.offers .offers-header h1 {
+  margin-bottom: 2px;
+  font-family: proxmia nova thin;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.offers .offers-header .border-bottom {
+  width: 197px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 16px;
+  font-family: gill sans italic;
+  font-size: 16px;
+}
+.offers .offers-deals {
+  margin-top: 35.5px;
+  margin-bottom: 60px;
+}
+.offers .offers-deals h1 {
+  font-size: 30px;
+  font-family: proxmia nova thin;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.offers .offers-deals .line {
+  border-bottom: solid black;
+  width: 196px;
+  margin-top: -10px;
+}
+.offers .offers-deals .content-box {
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.offers .offers-deals .content-box .image1 {
+  width: 199px;
+  height: 287px;
+  overflow: hidden;
+  background-image: url(../images/images/special-offer-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 21px;
+}
+.offers .offers-deals .content-box .image2 {
+  width: 199px;
+  height: 287px;
+  overflow: hidden;
+  background-image: url(../images/images/special-offer-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 21px;
+}
+.offers .offers-deals .content-box .quote {
+  max-width: 300px;
+  margin-bottom: 20px;
+  font-family: gill sans italic;
+  font-size: 16px;
+  margin-top: 21px;
+}
+.offers .offers-deals .content-box .button {
+  margin-top: 100px;
+}
+.offers .offers-deals .content-box .button span {
+  background-color: #79ADDC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  bottom: 50px;
+  font-family: gill sans reg;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+.offers .offers-deals .content-box .discount {
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+  font-family: proxmia nova thin;
+  color: #FF7D38;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .offers .offers-header h1 {
+    font-size: 20px;
+  }
+  .offers .offers-header .offers-deals h1 {
+    font-size: 20px;
+  }
+  .offers p {
+    font-size: smaller;
+  }
+}
+.blog {
+  max-width: 980px;
+  margin: 130px auto 180px auto;
+}
+.blog .blog-header h1 {
+  margin-bottom: 2px;
+  font-family: proxmia nova thin;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.blog .blog-header .border-bottom {
+  width: 97px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 16px;
+  font-family: gill sans italic;
+  font-size: 16px;
+}
+.blog .blog-header p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.blog .post {
+  margin-top: 31px;
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog .post .left {
+  width: 60px;
+}
+.blog .post .left .date-box {
+  padding-top: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-family: gill sans bold;
+  font-size: 22px;
+}
+.blog .post .left .date-box .emphasis {
+  font-family: gill sans light;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blog .post .right {
+  width: 900px;
+  height: 259px;
+}
+.blog .post .right .hero {
+  width: 900px;
+  height: 259px;
+}
+.blog .post .right .hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.blog .word-box {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.blog .word-box .text {
+  width: 380px;
+  color: #79ADDC;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .blog .blog-header h1 {
+    font-size: 20px;
+  }
+  .blog .right .hero {
+    width: auto;
+    height: auto;
+  }
+  .blog p {
+    font-size: smaller;
+  }
+}
+.contact {
+  max-width: 980px;
+  margin: 130px auto 280px auto;
+}
+.contact .contact-header h1 {
+  margin-bottom: 2px;
+  font-family: proxmia nova thin;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.contact .contact-header .border-bottom {
+  width: 159px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 10px;
+  font-family: gill sans italic;
+  font-size: 16px;
+}
+.contact .contact-header p {
+  font-size: 16px;
+  font-family: gill sans reg;
+}
+.contact .wrapper {
+  display: flex;
+  align-content: space-between;
+}
+.contact .wrapper .map {
+  margin-top: 50px;
+  width: 400px;
+  height: 442px;
+}
+.contact .wrapper .map img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.contact .wrapper .map .adress {
+  margin-top: 34px;
+  width: 400px;
+  height: 160px;
+  margin-bottom: 100px;
+  font-size: 18px;
+  font-family: gill sans reg;
+}
+.contact .wrapper .text-box {
+  width: 529px;
+  height: 512px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.contact .wrapper .text-box input {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 21px;
+  background-color: #F5F5F5;
+  border: none;
+  font-family: gill sans reg;
+  font-size: 16px;
+}
+.contact .wrapper .text-box .large-box {
+  height: 199px;
+  padding-bottom: 140px;
+}
+.contact .wrapper .text-box span {
+  background-color: #79ADDC;
+  padding: 10px;
+  color: white;
+  font-family: gill sans reg;
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .contact .contact-header h1 {
+    font-size: 40px;
+  }
+  .contact .text-box input {
+    width: auto;
+  }
+  .contact h1 {
+    font-size: 20px;
+  }
+  .contact P {
+    font-size: smaller;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

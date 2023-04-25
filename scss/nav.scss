@@ -1,0 +1,106 @@
+.nav-holder{
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+
+
+nav{
+    width: $site-nav-width;
+    height: $site-nav-height;
+    margin: 0 auto;
+    border-bottom: solid $site-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logob{
+        width: 92px;
+        height: 42px;
+        
+    }
+
+    .links{
+        width: 500px;    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: gill sans reg;
+    
+    
+        }
+        span{
+            color: $site-blue;
+        }
+
+        .we{
+            color: $site-black;
+        }
+
+    }
+
+
+   
+}
+
+.jes{
+    width: $site-nav-width;
+    height: $site-nav-height;
+    margin: 0 auto;
+    border-bottom: solid $site-black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logob{
+        width: 92px;
+        height: 42px;
+        
+    }
+
+    .links{
+        width: 500px;    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: gill sans reg;
+    
+    
+        }
+        span{
+            color: $site-blue;
+        }
+
+        .we{
+            color: $site-black;
+        }
+
+    }
+}
+}
+@media screen and (max-width: 900px) and (min-width:500px){
+    .nav-holder{
+        width: auto;
+        nav{
+            width: auto;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav-holder{
+        width: auto;
+        padding-right: 5px;
+        font-size: 5px;
+    }
+    
+}
+
+

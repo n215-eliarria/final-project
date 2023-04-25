@@ -1,0 +1,119 @@
+.usa{
+    max-width: $site-nav-width;
+    margin: 130px auto 100px auto;
+
+    .header-usa{
+        width: 981px;
+        height: 413px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images/tour/tour-02.jpg);
+        background-color: black;
+
+        .word-holder{
+            position: absolute;
+            .word-head{
+                width: 687px;
+                position: relative;
+                right: 120px;
+                bottom: 130px;
+                font-size: 80px;
+                font-family: proxmia nova ;
+                color: white;
+
+            }
+            .price{
+                position: relative;
+                font-family: proxmia nova thin;
+                color: white;
+                width: 311px;
+                left: 650px;
+                top: 150px;
+                
+            }
+
+        }
+
+    }
+
+    .pics {
+        width: 981px;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .pic1{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/images/tour/tour-usa/usa-tour-01.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .pic2{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/usa-tour-02.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .pic3{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/images/tour/tour-usa/usa-tour-03.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .day{
+        margin-top: 29px;
+        width: 981px;
+
+        .day-holder{
+            margin-bottom: 70px;
+
+            h1{
+                font-size: 60px;
+                font-family: proxmia nova thin;
+
+            }
+            .bottom-line{
+                border-bottom: solid black;
+                width: 141px;
+                margin-bottom: 36.5px;
+
+            }
+            p{
+                font-size: 16px;
+                font-family: gill sans reg;
+            }
+        }
+    }
+    .booknow{
+       margin-top: 80px; 
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+
+       span{
+        background-color: $site-blue;
+        padding: 10px 15px;
+        border-radius: 50px;
+        bottom: 50px;
+        font-family: gill sans reg;
+        font-size: 15px;
+        margin-bottom: 50px;
+        color: white;
+
+    }
+    }
+}

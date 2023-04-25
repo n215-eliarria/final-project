@@ -1,0 +1,109 @@
+.blog {
+  max-width: $site-nav-width;
+    margin: 130px auto 180px auto;
+  
+    .blog-header {
+      h1 {
+        margin-bottom: 2px;
+        font-family: proxmia nova thin;
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: 3px;
+
+      }
+      .border-bottom {
+        width: 97px;
+        height: 2px;
+        background-color: #000;
+        margin-bottom: 16px;
+        font-family: gill sans italic;
+        font-size: 16px;
+      }
+      p{
+        font-size: 16px;
+        font-family: gill sans reg;
+    }
+    }
+    .post{
+        margin-top: 31px;
+        width: 100%;
+        min-height: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .left{
+            width: 60px;
+
+            .date-box{
+                padding-top: 10px;
+                width: 60px;
+                height: 60px;
+                background-color: $site-blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                color: white;
+                font-family: gill sans bold;
+                font-size: 22px;
+
+                .emphasis{
+                    font-family: gill sans light;
+                    font-size: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                                        
+                }
+
+            }
+        }
+
+
+        .right{
+            width: 900px;
+            height: 259px;
+
+            .hero{
+                width: 900px;
+                height: 259px;
+
+
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+  
+    .word-box{
+        margin-top: 20px;
+        margin-left: 80px;
+    .text{
+        width: 380px;
+        color: $site-blue;
+        margin-bottom: 100px;
+
+    }
+    }
+  }
+  
+  @media (max-width: 1200px) and (min-width:800px){
+    .blog{
+      .blog-header{
+        h1{
+          font-size: 20px;
+        }
+      }
+      .right{
+      .hero{
+        width: auto;
+        height: auto;
+      }
+    }
+    p{
+        font-size: smaller;
+    }
+    }
+}
